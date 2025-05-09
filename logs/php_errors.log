@@ -1,0 +1,4 @@
+[09-May-2025 16:43:47 America/Lima] PHP Warning:  Undefined array key "usuario_id" in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 21
+[09-May-2025 16:44:44 America/Lima] PHP Warning:  Undefined array key "usuario_id" in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 21
+[09-May-2025 16:45:05 America/Lima] PHP Warning:  Undefined array key "usuario_id" in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 21
+[09-May-2025 16:45:05 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\restauranteBD\includes\navbar.php:19) in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 87

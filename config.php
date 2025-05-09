@@ -7,8 +7,8 @@ if (session_status() === PHP_SESSION_NONE) {
 // Configuración de la aplicación
 define('APP_NAME', 'Sistema Restaurante');
 define('APP_VERSION', '1.0.0');
-define('BASE_URL', '/restauranteBD/');
-//define('BASE_URL', 'http://localhost/restauranteBD/');
+//define('BASE_URL', '/restauranteBD/');
+define('BASE_URL', 'http://localhost/restauranteBD/');
 
 // Configuración de la base de datos
 define('DB_HOST', 'localhost');
