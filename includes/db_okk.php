@@ -1,6 +1,6 @@
+
 <?php
-// Usar ruta absoluta desde el directorio raíz
-require_once __DIR__ . '/../config.php';
+require_once 'config.php';
 
 try {
     $dsn = "mysql:host=" . DB_HOST . ";dbname=" . DB_NAME . ";charset=" . DB_CHARSET;
@@ -12,6 +12,6 @@ try {
     
     $pdo = new PDO($dsn, DB_USER, DB_PASS, $options);
 } catch (PDOException $e) {
-    error_log("[" . date('Y-m-d H:i:s') . "] Error de conexión: " . $e->getMessage() . "\n", 3, __DIR__ . '/../logs/db_errors.log');
+    error_log("Error de conexión: " . $e->getMessage());
     die("Error de conexión a la base de datos. Por favor intente más tarde.");
 }

@@ -11,12 +11,12 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo BASE_URL; ?>index.php"><i class="fas fa-home"></i> Inicio</a>
+                    <a class="nav-link" href="../"><i class="fas fa-home"></i> Inicio</a>
                 </li>
                 
                 <!-- Módulo de Clientes -->
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo BASE_URL; ?>clientes/"><i class="fas fa-users"></i> Clientes</a>
+                    <a class="nav-link" href="../clientes/"><i class="fas fa-users"></i> Clientes</a>
                 </li>
                 
                 <!-- Módulo de Platos con submenú -->
@@ -25,19 +25,19 @@
                         <i class="fas fa-utensils"></i> Platos
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="platos/"><i class="fas fa-list"></i> Lista de Platos</a></li>
-                        <li><a class="dropdown-item" href="categorias/"><i class="fas fa-tags"></i> Categorías</a></li>
+                        <li><a class="dropdown-item" href="../platos/"><i class="fas fa-list"></i> Lista de Platos</a></li>
+                        <li><a class="dropdown-item" href="../categoriasmenu/"><i class="fas fa-tags"></i> Categorías</a></li>
                     </ul>
                 </li>
                 
                 <!-- Módulo de Pedidos -->
                 <li class="nav-item">
-                    <a class="nav-link" href="pedidos/"><i class="fas fa-clipboard-list"></i> Pedidos</a>
+                    <a class="nav-link" href="../pedidos/"><i class="fas fa-clipboard-list"></i> Pedidos</a>
                 </li>
                 
                 <!-- Módulo de Mesas -->
                 <li class="nav-item">
-                    <a class="nav-link" href="mesas/"><i class="fas fa-chair"></i> Mesas</a>
+                    <a class="nav-link" href="../mesas/"><i class="fas fa-chair"></i> Mesas</a>
                 </li>
                 
                 <!-- Módulo de Tesorería con submenú -->
@@ -46,8 +46,8 @@
                         <i class="fas fa-cash-register"></i> Tesorería
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="pagos/"><i class="fas fa-money-bill-wave"></i> Pagos</a></li>
-                        <li><a class="dropdown-item" href="cobros/"><i class="fas fa-hand-holding-usd"></i> Cobros</a></li>
+                        <li><a class="dropdown-item" href="../pagos/"><i class="fas fa-money-bill-wave"></i> Pagos</a></li>
+                        <li><a class="dropdown-item" href="../cobros/"><i class="fas fa-hand-holding-usd"></i> Cobros</a></li>
                     </ul>
                 </li>
                 
@@ -57,9 +57,9 @@
                         <i class="fas fa-chart-bar"></i> Reportes
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="reportes/ventas"><i class="fas fa-chart-line"></i> Ventas</a></li>
-                        <li><a class="dropdown-item" href="reportes/inventario"><i class="fas fa-boxes"></i> Inventario</a></li>
-                        <li><a class="dropdown-item" href="reportes/pagos"><i class="fas fa-file-invoice-dollar"></i> Pagos</a></li>
+                        <li><a class="dropdown-item" href="../reportes/ventas"><i class="fas fa-chart-line"></i> Ventas</a></li>
+                        <li><a class="dropdown-item" href="../reportes/inventario"><i class="fas fa-boxes"></i> Inventario</a></li>
+                        <li><a class="dropdown-item" href="../reportes/pagos"><i class="fas fa-file-invoice-dollar"></i> Pagos</a></li>
                     </ul>
                 </li>
                 
@@ -70,22 +70,24 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li class="dropdown-header"><i class="fas fa-handshake"></i> Socios de Negocio</li>
-                        <li><a class="dropdown-item" href="empleados/"><i class="fas fa-user-tie"></i> Empleados</a></li>
-                        <li><a class="dropdown-item" href="clientes/"><i class="fas fa-users"></i> Clientes</a></li>
-                        <li><a class="dropdown-item" href="proveedores/"><i class="fas fa-truck"></i> Proveedores</a></li>
+                        <li><a class="dropdown-item" href="../empleados/"><i class="fas fa-user-tie"></i> Empleados</a></li>
+                        <li><a class="dropdown-item" href="../clientes/"><i class="fas fa-users"></i> Clientes</a></li>
+                        <li><a class="dropdown-item" href="../proveedores/"><i class="fas fa-truck"></i> Proveedores</a></li>
                         <li class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="configuracion/"><i class="fas fa-tools"></i> Configuración</a></li>
+                        <li><a class="dropdown-item" href="../configuracion/"><i class="fas fa-tools"></i> Configuración</a></li>
                     </ul>
                 </li>
             </ul>
 
             <ul class="navbar-nav ms-auto">
                 <?php if (isLoggedIn()): ?>
+                    
+                 
                     <li class="nav-item">
                         <span class="nav-link">Bienvenido, <?php echo htmlspecialchars($_SESSION['username']); ?></span>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo BASE_URL; ?>logout.php">Cerrar Sesión</a>                        
+                        <a class="nav-link" href="logout.php">Cerrar Sesión</a>                        
                     </li>
                 <?php else: ?>
                     <li class="nav-item">
