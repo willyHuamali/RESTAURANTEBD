@@ -3,10 +3,8 @@ require_once __DIR__ . '/../includes/auth.php';
 redirectIfNotLoggedIn();
 
 require_once __DIR__ . '/../includes/db.php';
-require_once __DIR__ . '/../includes/header.php';
-require_once __DIR__ . '/../includes/navbar.php';
 
-$base_url = '/restauranteBD/clientes/';
+$base_url_cliente = '/restauranteBD/clientes/';
 
 // Procesar el formulario cuando se envía
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -18,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $telefono = trim($_POST['telefono']);
     $email = trim($_POST['email']);
     $direccion = trim($_POST['direccion']);
-    $usuario_id = $_SESSION['usuario_id']; // ID del usuario que está registrando
+    $usuario_id = $_SESSION['user_id']; // ID del usuario que está registrando
 
     // Validaciones básicas
     $errores = [];
@@ -35,6 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $errores[] = "Debe ingresar al menos DNI o RUC";
     }
     
+    // Validación modificada para email: no es obligatorio pero si se ingresa debe ser válido
     if (!empty($email) && !filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $errores[] = "El email no tiene un formato válido";
     }
@@ -84,19 +83,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             ]);
 
             // Redirigir con mensaje de éxito
-            header("Location: {$base_url}index.php?success=Cliente registrado correctamente");
+            header("Location: {$base_url_cliente}index.php?success=Cliente registrado correctamente");
             exit();
         } catch(PDOException $e) {
             $errores[] = "Error al registrar el cliente: " . $e->getMessage();
         }
     }
 }
+require_once __DIR__ . '/../includes/header.php';
+require_once __DIR__ . '/../includes/navbar.php';
 ?>
+
 
 <div class="container mt-5 pt-4">
     <div class="d-flex justify-content-between align-items-center mb-4">
         <h2><i class="fas fa-user-plus me-2"></i>Registrar Nuevo Cliente</h2>
-        <a href="<?= $base_url ?>index.php" class="btn btn-secondary">
+        <a href="<?= $base_url_cliente ?>index.php" class="btn btn-secondary">
             <i class="fas fa-arrow-left me-1"></i> Volver
         </a>
     </div>
@@ -170,10 +172,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <div class="col-md-6">
                         <label for="email" class="form-label">Email</label>
                         <div class="input-group">
-                            <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                            <span class="input-group-text"><i class="fas fa-envelope"></i></span>                         
                             <input type="email" class="form-control" id="email" name="email" 
-                                   value="<?= htmlspecialchars($_POST['email'] ?? '') ?>"
-                                   >
+                            value="<?= isset($_POST['email']) ? htmlspecialchars($_POST['email'], ENT_QUOTES, 'UTF-8') : '' ?>">
                         </div>
                     </div>
                     
@@ -191,7 +192,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <button type="submit" class="btn btn-primary px-4">
                             <i class="fas fa-save me-1"></i> Guardar Cliente
                         </button>
-                        <a href="<?= $base_url ?>index.php" class="btn btn-outline-secondary ms-2 px-4">
+                        <a href="<?= $base_url_cliente ?>index.php" class="btn btn-outline-secondary ms-2 px-4">
                             <i class="fas fa-times me-1"></i> Cancelar
                         </a>
                     </div>

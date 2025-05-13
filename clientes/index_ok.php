@@ -1,18 +1,20 @@
 <?php
-// Eliminar la línea require_once __DIR__ . '/../init.php' si existe
 require_once __DIR__ . '/../includes/auth.php';
 redirectIfNotLoggedIn();
 
 require_once __DIR__ . '/../includes/db.php';
 require_once __DIR__ . '/../includes/header.php';
 require_once __DIR__ . '/../includes/navbar.php';
+
+$base_url = '/restauranteBD/clientes/';
+
 // Manejo de errores para la consulta
 try {
     // Consulta para obtener todos los clientes con información del usuario que los registró
     $query = "SELECT c.*, u.username as registrado_por 
               FROM clientes c
               LEFT JOIN usuarios u ON c.usuario_id = u.usuario_id
-              WHERE c.activo = TRUE
+              /*WHERE c.activo = TRUE    // para mostrar solo los activos*/   
               ORDER BY c.fecha_registro DESC";
     $stmt = $pdo->query($query);
     $clientes = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -24,8 +26,8 @@ try {
 <div class="container mt-5 pt-4">
     <div class="d-flex justify-content-between align-items-center mb-4">
         <h2><i class="fas fa-users me-2"></i>Gestión de Clientes</h2>
-        <a href="registrar.php" class="btn btn-primary">
-            <i class="fas fa-plus me-1"></i> Nuevo Cliente
+        <a href="<?= $base_url ?>registrar.php" class="btn btn-primary">
+            <i class="fas fa-plus me-1"></i> Nuevo Clientesss
         </a>
     </div>
 
@@ -49,6 +51,7 @@ try {
                             <th>Teléfono</th>
                             <th>Email</th>
                             <th>Dirección</th>
+                            <th>Estado</th>
                             <th>Registro</th>
                             <th>Registrado por</th>
                             <th>Acciones</th>
@@ -64,6 +67,13 @@ try {
                             <td><?= htmlspecialchars($cliente['telefono']) ?></td>
                             <td><?= htmlspecialchars($cliente['email']) ?></td>
                             <td><?= !empty($cliente['direccion']) ? htmlspecialchars($cliente['direccion']) : 'N/A' ?></td>
+                            <td>
+                                <?php if($cliente['activo']): ?>
+                                    <span class="badge bg-success">Activo</span>
+                                <?php else: ?>
+                                    <span class="badge bg-danger">Inactivo</span>
+                                <?php endif; ?>
+                            </td>
                             <td><?= date('d/m/Y', strtotime($cliente['fecha_registro'])) ?></td>
                             <td><?= !empty($cliente['registrado_por']) ? htmlspecialchars($cliente['registrado_por']) : 'Sistema' ?></td>
                             <td>
@@ -87,67 +97,76 @@ try {
 </div>
 
 <!-- Modal de confirmación para eliminar -->
-<div class="modal fade" id="confirmarEliminar" tabindex="-1" aria-hidden="true">
+<div class="modal fade" id="confirmarEliminarModal" tabindex="-1" aria-labelledby="confirmarEliminarModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Confirmar Eliminación</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title" id="confirmarEliminarModalLabel">Confirmar Eliminación</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 ¿Está seguro que desea eliminar este cliente? Esta acción no se puede deshacer.
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                <a href="#" class="btn btn-danger" id="btn-confirmar-eliminar">Eliminar</a>
+                <button type="button" class="btn btn-danger" id="confirmarEliminar">Eliminar</button>
             </div>
         </div>
     </div>
 </div>
 
-<?php 
-include '../includes/footer.php';
-?>
 
+
+<!--  scrip para elimiar datos corregir Al final del archivo clientes/index.php, antes del footer -->
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-    // Configurar modal de eliminación
-    const modalEliminar = new bootstrap.Modal(document.getElementById('confirmarEliminar'));
-    const btnConfirmar = document.getElementById('btn-confirmar-eliminar');
-    
-    document.querySelectorAll('.btn-eliminar').forEach(btn => {
-        btn.addEventListener('click', function() {
-            const id = this.getAttribute('data-id');
-            btnConfirmar.href = `eliminar.php?id=${id}`;
-            modalEliminar.show();
+$(document).ready(function() {
+    $('.btn-eliminar').click(function() {
+        const clienteId = $(this).data('id');
+        const btn = $(this);
+        
+        Swal.fire({
+            title: '¿Estás seguro?',
+            text: "Esta acción no se puede deshacer",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#d33',
+            cancelButtonColor: '#3085d6',
+            confirmButtonText: 'Sí, eliminar',
+            cancelButtonText: 'Cancelar'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                $.ajax({
+                    url: 'eliminar.php',
+                    method: 'POST',
+                    data: { id: clienteId },
+                    dataType: 'json'
+                })
+                .done(function(response) {
+                    if (response.success) {
+                        Swal.fire(
+                            'Eliminado!',
+                            response.message,
+                            'success'
+                        ).then(() => {
+                            window.location.reload();
+                        });
+                    } else {
+                        Swal.fire(
+                            'Error!',
+                            response.message,
+                            'error'
+                        );
+                    }
+                })
+                .fail(function() {
+                    Swal.fire(
+                        'Error!',
+                        'Ocurrió un error al intentar eliminar el cliente',
+                        'error'
+                    );
+                });
+            }
         });
     });
-    
-    // Mostrar alertas de error/success
-    if (window.location.search.includes('error=')) {
-        const urlParams = new URLSearchParams(window.location.search);
-        const errorMsg = urlParams.get('error');
-        
-        const alertDiv = document.createElement('div');
-        alertDiv.className = 'alert alert-danger alert-dismissible fade show';
-        alertDiv.role = 'alert';
-        alertDiv.innerHTML = `
-            ${errorMsg}
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-        `;
-        
-        document.querySelector('.container').prepend(alertDiv);
-    }
-    
-    // Inicializar DataTable
-    if ($.fn.DataTable) {
-        $('.data-table').DataTable({
-            language: {
-                url: '//cdn.datatables.net/plug-ins/1.10.25/i18n/Spanish.json'
-            },
-            responsive: true
-        });
-    }
 });
 </script>
-

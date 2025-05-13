@@ -1,8 +1,28 @@
-<footer class="footer mt-auto py-3 bg-light">
+<footer class="footer py-4">
     <div class="container">
-        <span class="text-muted">
-            &copy; <?php echo date('Y'); ?> Restaurante Delicia - Todos los derechos reservados
-        </span>
+        <div class="row">
+            <div class="col-12">
+                <div class="footer-links">
+                    <a href="#"><i class="fas fa-info-circle me-1"></i> Acerca de</a>
+                    <a href="#"><i class="fas fa-envelope me-1"></i> Contacto</a>
+                    <a href="#"><i class="fas fa-shield-alt me-1"></i> Privacidad</a>
+                    <a href="#"><i class="fas fa-file-alt me-1"></i> Términos</a>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="social-links text-center mb-3">
+                    <a href="#" class="mx-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="mx-2"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="mx-2"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="mx-2"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="col-12">
+                <p class="footer-copyright mb-0">
+                    &copy; <?php echo date('Y'); ?> Restaurante Will. Todos los derechos reservados.
+                </p>
+            </div>
+        </div>
     </div>
 </footer>
 

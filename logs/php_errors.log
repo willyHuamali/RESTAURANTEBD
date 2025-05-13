@@ -2,3 +2,92 @@
 [09-May-2025 16:44:44 America/Lima] PHP Warning:  Undefined array key "usuario_id" in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 21
 [09-May-2025 16:45:05 America/Lima] PHP Warning:  Undefined array key "usuario_id" in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 21
 [09-May-2025 16:45:05 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\restauranteBD\includes\navbar.php:19) in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 87
+[13-May-2025 08:21:59 America/Lima] PHP Warning:  Undefined array key "usuario_id" in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 21
+[13-May-2025 08:22:51 America/Lima] PHP Warning:  Undefined array key "usuario_id" in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 21
+[13-May-2025 08:22:51 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\restauranteBD\includes\navbar.php:19) in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 87
+[13-May-2025 09:02:45 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\restauranteBD\includes\navbar.php:19) in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 87
+[13-May-2025 09:08:33 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\restauranteBD\includes\navbar.php:19) in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 87
+[13-May-2025 09:13:59 America/Lima] PHP Warning:  Undefined variable $base_url in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 103
+[13-May-2025 09:13:59 America/Lima] PHP Warning:  Undefined variable $base_url in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 198
+[13-May-2025 09:14:17 America/Lima] PHP Warning:  Undefined variable $base_ur_cliente in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 87
+[13-May-2025 09:14:17 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\restauranteBD\includes\navbar.php:19) in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 87
+[13-May-2025 09:18:51 America/Lima] PHP Warning:  Undefined variable $base_url in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 101
+[13-May-2025 09:18:51 America/Lima] PHP Warning:  Undefined variable $base_url in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 196
+[13-May-2025 09:19:13 America/Lima] PHP Warning:  Undefined variable $base_ur_cliente in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 86
+[13-May-2025 09:20:20 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\editar.php on line 140
+[13-May-2025 09:20:41 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\editar.php on line 140
+[13-May-2025 09:20:51 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\editar.php on line 140
+[13-May-2025 09:41:25 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\editar.php on line 140
+[13-May-2025 11:27:29 America/Lima] PHP Warning:  Undefined variable $base_url in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 101
+[13-May-2025 11:27:29 America/Lima] PHP Warning:  Undefined variable $base_url in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 196
+[13-May-2025 11:28:18 America/Lima] PHP Warning:  Undefined variable $base_ur_cliente in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 86
+[13-May-2025 11:28:18 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 11:29:58 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 11:39:14 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 11:39:24 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 11:39:36 America/Lima] PHP Warning:  Undefined variable $base_url in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 101
+[13-May-2025 11:39:36 America/Lima] PHP Warning:  Undefined variable $base_url in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 196
+[13-May-2025 11:39:51 America/Lima] PHP Warning:  Undefined variable $base_url in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 101
+[13-May-2025 11:39:51 America/Lima] PHP Warning:  Undefined variable $base_url in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 196
+[13-May-2025 11:39:56 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 14:44:55 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 14:55:36 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 14:55:57 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 14:57:43 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 14:57:45 America/Lima] PHP Warning:  Undefined variable $base_url in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 101
+[13-May-2025 14:57:45 America/Lima] PHP Warning:  Undefined variable $base_url in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 195
+[13-May-2025 14:57:57 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 14:57:57 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 15:03:06 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 15:03:06 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 15:04:49 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 15:04:49 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 15:09:10 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 15:09:10 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 15:12:14 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 15:12:20 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 15:12:31 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 15:13:00 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 15:13:22 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 15:13:24 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 15:13:32 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 15:19:22 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 15:19:40 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 15:22:03 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 15:22:45 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 15:22:48 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 15:22:59 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 15:23:22 America/Lima] PHP Warning:  Undefined variable $base_url in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 101
+[13-May-2025 15:23:22 America/Lima] PHP Warning:  Undefined variable $base_url in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 195
+[13-May-2025 15:23:43 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 15:23:43 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 151
+[13-May-2025 15:35:11 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 152
+[13-May-2025 15:35:11 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 152
+[13-May-2025 15:35:54 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 152
+[13-May-2025 15:36:00 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 152
+[13-May-2025 15:36:05 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 152
+[13-May-2025 15:36:05 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 152
+[13-May-2025 16:00:18 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 154
+[13-May-2025 16:00:18 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 154
+[13-May-2025 16:04:57 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 157
+[13-May-2025 16:04:57 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 157
+[13-May-2025 16:05:19 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 157
+[13-May-2025 16:05:19 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 157
+[13-May-2025 16:05:33 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 157
+[13-May-2025 16:05:33 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 157
+[13-May-2025 16:05:45 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 157
+[13-May-2025 16:06:00 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 157
+[13-May-2025 16:06:25 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 155
+[13-May-2025 16:06:27 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 155
+[13-May-2025 16:06:27 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 155
+[13-May-2025 16:08:37 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 155
+[13-May-2025 16:09:09 America/Lima] PHP Warning:  Undefined variable $base_url in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 101
+[13-May-2025 16:09:09 America/Lima] PHP Warning:  Undefined variable $base_url in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 195
+[13-May-2025 16:09:33 America/Lima] PHP Warning:  Undefined variable $base_url in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 101
+[13-May-2025 16:09:33 America/Lima] PHP Warning:  Undefined variable $base_url in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 195
+[13-May-2025 16:09:43 America/Lima] PHP Warning:  Undefined variable $base_url in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 101
+[13-May-2025 16:09:43 America/Lima] PHP Warning:  Undefined variable $base_url in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 195
+[13-May-2025 16:09:49 America/Lima] PHP Warning:  Undefined variable $base_url in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 101
+[13-May-2025 16:09:49 America/Lima] PHP Warning:  Undefined variable $base_url in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 195
+[13-May-2025 16:13:23 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 155
+[13-May-2025 16:14:09 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 155
