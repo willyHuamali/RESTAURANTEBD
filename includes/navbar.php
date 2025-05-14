@@ -11,24 +11,36 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo BASE_URL; ?>index.php"><i class="fas fa-home"></i> Inicio</a>
+                    <a class="nav-link" href="<?php echo BASE_URL;?>index.php"><i class="fas fa-home"></i> Inicio</a>
                 </li>
                 
                 <!-- Módulo de Clientes -->
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo BASE_URL; ?>clientes/"><i class="fas fa-users"></i> Clientes</a>
+                    <a class="nav-link" href="<?php echo BASE_URL;?>clientes/"><i class="fas fa-users"></i> Clientes</a>
                 </li>
                 
-                <!-- Módulo de Platos con submenú -->
+                <!--Módulo de Platos con submenú -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="platosDropdown" role="button" data-bs-toggle="dropdown">
+                    <a class="nav-link dropdown-toggle" href="<?php echo BASE_URL;?>" id="platosDropdown" role="button" data-bs-toggle="dropdown">
                         <i class="fas fa-utensils"></i> Platos
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="platos/"><i class="fas fa-list"></i> Lista de Platos</a></li>
-                        <li><a class="dropdown-item" href="categorias/"><i class="fas fa-tags"></i> Categorías</a></li>
+                     <!--   <li><a class="dropdown-item" href="platos/"><i class="fas fa-list"></i> Lista de Platos</a></li>-->
+                        <li><a class="dropdown-item" href="<?php echo BASE_URL;?>platos/"><i class="fas fa-list"></i> Lista de Platos</a></li>
+                        <li><a class="dropdown-item" href="<?php echo BASE_URL;?>categoriasmenu/"><i class="fas fa-tags"></i> Categorías</a></li>
                     </ul>
-                </li>
+                </li>  
+
+               <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="<?php echo BASE_URL;?>" id="platosDropdown" role="button" 
+                    data-bs-toggle="dropdown" aria-expanded="false" onclick="event.preventDefault()">
+                        <i class="fas fa-utensils"></i> Platos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="platosDropdown">
+                        <li><a class="dropdown-item" href="<?php echo BASE_URL;?>platos/"><i class="fas fa-list"></i> Lista de Platos</a></li>
+                        <li><a class="dropdown-item" href="<?php echo BASE_URL;?>categoriasmenu/"><i class="fas fa-tags"></i> Categorías</a></li>
+                    </ul>
+                </li>   -->
                 
                 <!-- Módulo de Pedidos -->
                 <li class="nav-item">

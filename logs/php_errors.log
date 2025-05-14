@@ -91,3 +91,19 @@
 [13-May-2025 16:09:49 America/Lima] PHP Warning:  Undefined variable $base_url in C:\xampp\htdocs\restauranteBD\clientes\registrar.php on line 195
 [13-May-2025 16:13:23 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 155
 [13-May-2025 16:14:09 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\clientes\index.php on line 155
+[14-May-2025 10:15:17 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\restauranteBD\includes\navbar.php:19) in C:\xampp\htdocs\restauranteBD\categoriasmenu\registrar.php on line 51
+[14-May-2025 10:25:48 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\restauranteBD\includes\navbar.php:19) in C:\xampp\htdocs\restauranteBD\categoriasmenu\registrar.php on line 51
+[14-May-2025 10:30:09 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\restauranteBD\includes\navbar.php:30) in C:\xampp\htdocs\restauranteBD\categoriasmenu\registrar.php on line 51
+[14-May-2025 10:42:22 America/Lima] PHP Warning:  Undefined variable $nombre in C:\xampp\htdocs\restauranteBD\categoriasmenu\registrar.php on line 18
+[14-May-2025 10:42:22 America/Lima] PHP Warning:  Undefined variable $descripcion in C:\xampp\htdocs\restauranteBD\categoriasmenu\registrar.php on line 19
+[14-May-2025 10:42:22 America/Lima] PHP Warning:  Undefined variable $orden in C:\xampp\htdocs\restauranteBD\categoriasmenu\registrar.php on line 20
+[14-May-2025 10:42:22 America/Lima] PHP Warning:  Undefined variable $activa in C:\xampp\htdocs\restauranteBD\categoriasmenu\registrar.php on line 21
+[14-May-2025 10:42:22 America/Lima] PHP Warning:  Undefined variable $errores in C:\xampp\htdocs\restauranteBD\categoriasmenu\registrar.php on line 44
+[14-May-2025 11:45:29 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\restauranteBD\includes\navbar.php:30) in C:\xampp\htdocs\restauranteBD\platos\registrarplatillo.php on line 96
+[14-May-2025 12:04:16 America/Lima] PHP Warning:  Undefined variable $nombre in C:\xampp\htdocs\restauranteBD\platos\registrarplatillo.php on line 29
+[14-May-2025 12:04:16 America/Lima] PHP Warning:  Undefined variable $precio in C:\xampp\htdocs\restauranteBD\platos\registrarplatillo.php on line 31
+[14-May-2025 12:04:16 America/Lima] PHP Warning:  Undefined variable $activo in C:\xampp\htdocs\restauranteBD\platos\registrarplatillo.php on line 34
+[14-May-2025 12:04:16 America/Lima] PHP Warning:  Undefined variable $imagen_url in C:\xampp\htdocs\restauranteBD\platos\registrarplatillo.php on line 35
+[14-May-2025 12:50:29 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\platos\editar.php on line 249
+[14-May-2025 15:10:28 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\platos\editar.php on line 249
+[14-May-2025 15:59:13 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\platos\editar.php on line 249
