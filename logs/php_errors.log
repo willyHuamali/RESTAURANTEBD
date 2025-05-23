@@ -107,3 +107,144 @@
 [14-May-2025 12:50:29 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\platos\editar.php on line 249
 [14-May-2025 15:10:28 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\platos\editar.php on line 249
 [14-May-2025 15:59:13 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\platos\editar.php on line 249
+[23-May-2025 09:37:04 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\restauranteBD\includes\navbar.php:41) in C:\xampp\htdocs\restauranteBD\mesas\editar.php on line 82
+[23-May-2025 09:40:46 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\restauranteBD\includes\navbar.php:30) in C:\xampp\htdocs\restauranteBD\mesas\editar.php on line 82
+[23-May-2025 09:40:54 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\restauranteBD\includes\navbar.php:30) in C:\xampp\htdocs\restauranteBD\mesas\editar.php on line 82
+[23-May-2025 09:50:48 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\restauranteBD\includes\navbar.php:52) in C:\xampp\htdocs\restauranteBD\mesas\editar.php on line 82
+[23-May-2025 12:22:41 America/Lima] PHP Warning:  Undefined array key "usuario_id" in C:\xampp\htdocs\restauranteBD\pedidos\registrar.php on line 51
+[23-May-2025 12:22:41 America/Lima] PHP Warning:  Undefined array key "platillos" in C:\xampp\htdocs\restauranteBD\pedidos\registrar.php on line 73
+[23-May-2025 12:22:41 America/Lima] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\restauranteBD\pedidos\registrar.php on line 73
+[23-May-2025 12:22:41 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\restauranteBD\includes\navbar.php:52) in C:\xampp\htdocs\restauranteBD\pedidos\registrar.php on line 117
+[23-May-2025 12:42:57 America/Lima] PHP Warning:  Undefined array key "usuario_id" in C:\xampp\htdocs\restauranteBD\pedidos\registrar.php on line 51
+[23-May-2025 12:42:57 America/Lima] PHP Warning:  Undefined array key "platillos" in C:\xampp\htdocs\restauranteBD\pedidos\registrar.php on line 73
+[23-May-2025 12:42:57 America/Lima] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\restauranteBD\pedidos\registrar.php on line 73
+[23-May-2025 12:42:57 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\restauranteBD\includes\navbar.php:52) in C:\xampp\htdocs\restauranteBD\pedidos\registrar.php on line 117
+[23-May-2025 12:43:19 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 12:43:19 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 12:43:19 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 12:43:19 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 14:03:03 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 14:03:03 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 14:03:03 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 14:03:03 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 14:56:27 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 14:56:27 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 14:56:27 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 14:56:27 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 14:57:35 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 14:57:35 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 14:57:35 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 14:57:35 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 14:57:41 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 14:57:41 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 14:57:41 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 14:57:41 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 14:58:46 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 14:58:46 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 14:58:46 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 14:58:46 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 14:59:53 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 14:59:53 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 14:59:53 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 14:59:53 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:01:59 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:01:59 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:01:59 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:01:59 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:04:32 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:04:32 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:04:32 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:04:32 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:06:47 America/Lima] PHP Warning:  Undefined array key "usuario_id" in C:\xampp\htdocs\restauranteBD\pedidos\registrar.php on line 51
+[23-May-2025 15:06:47 America/Lima] PHP Warning:  Undefined array key "platillos" in C:\xampp\htdocs\restauranteBD\pedidos\registrar.php on line 73
+[23-May-2025 15:06:47 America/Lima] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\restauranteBD\pedidos\registrar.php on line 73
+[23-May-2025 15:06:47 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\restauranteBD\includes\navbar.php:52) in C:\xampp\htdocs\restauranteBD\pedidos\registrar.php on line 117
+[23-May-2025 15:16:08 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:16:08 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:16:08 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:16:08 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:16:08 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:16:08 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:23:12 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:23:12 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:23:12 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:23:12 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:23:12 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:23:12 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:24:22 America/Lima] PHP Warning:  Undefined array key "usuario_id" in C:\xampp\htdocs\restauranteBD\pedidos\registrar.php on line 53
+[23-May-2025 15:24:22 America/Lima] PHP Warning:  Undefined array key "platillos" in C:\xampp\htdocs\restauranteBD\pedidos\registrar.php on line 75
+[23-May-2025 15:24:22 America/Lima] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\restauranteBD\pedidos\registrar.php on line 75
+[23-May-2025 15:24:22 America/Lima] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\restauranteBD\includes\navbar.php:52) in C:\xampp\htdocs\restauranteBD\pedidos\registrar.php on line 119
+[23-May-2025 15:24:35 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:24:35 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:24:35 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:24:35 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:24:35 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:24:35 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:24:35 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:24:35 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:25:58 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:25:58 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:25:58 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:25:58 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:25:58 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:25:58 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:25:58 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:25:58 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:37:18 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:37:18 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:37:18 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:37:18 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:37:18 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:37:18 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:37:18 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:37:18 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:41:09 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:41:09 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:41:09 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:41:09 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:41:09 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:41:09 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:41:09 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:41:09 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:41:09 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:41:09 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:41:09 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:41:09 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:41:09 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:41:09 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:41:09 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:41:09 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:48:25 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:48:25 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:48:25 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:48:25 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:48:25 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:48:25 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:48:25 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:48:25 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:49:06 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:49:06 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:49:06 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:49:06 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:49:06 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:49:06 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:49:06 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:49:06 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 15:49:32 America/Lima] PHP Warning:  Undefined array key "usuario_id" in C:\xampp\htdocs\restauranteBD\pedidos\registrar.php on line 53
+[23-May-2025 16:00:21 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 16:00:21 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 16:00:21 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 16:00:21 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 16:00:21 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 16:00:21 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 16:00:21 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 16:00:21 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 16:13:19 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 16:13:19 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 16:13:19 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 16:13:19 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 16:13:19 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 16:13:19 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 16:13:19 America/Lima] PHP Warning:  Undefined array key "mesa_nombre" in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180
+[23-May-2025 16:13:19 America/Lima] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\restauranteBD\pedidos\index.php on line 180

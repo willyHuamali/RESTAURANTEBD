@@ -32,13 +32,13 @@
                 </li>  
 
                <!-- <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="<?php echo BASE_URL;?>" id="platosDropdown" role="button" 
+                    <a class="nav-link dropdown-toggle" href="< ?php echo BASE_URL;?>" id="platosDropdown" role="button" 
                     data-bs-toggle="dropdown" aria-expanded="false" onclick="event.preventDefault()">
                         <i class="fas fa-utensils"></i> Platos
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="platosDropdown">
-                        <li><a class="dropdown-item" href="<?php echo BASE_URL;?>platos/"><i class="fas fa-list"></i> Lista de Platos</a></li>
-                        <li><a class="dropdown-item" href="<?php echo BASE_URL;?>categoriasmenu/"><i class="fas fa-tags"></i> Categorías</a></li>
+                        <li><a class="dropdown-item" href="<php echo BASE_URL;?>platos/"><i class="fas fa-list"></i> Lista de Platos</a></li>
+                        <li><a class="dropdown-item" href="<php echo BASE_URL;?>categoriasmenu/"><i class="fas fa-tags"></i> Categorías</a></li>
                     </ul>
                 </li>   -->
                 
@@ -49,7 +49,7 @@
                 
                 <!-- Módulo de Mesas -->
                 <li class="nav-item">
-                    <a class="nav-link" href="mesas/"><i class="fas fa-chair"></i> Mesas</a>
+                    <a class="nav-link" href="<?php echo BASE_URL;?>mesas/"><i class="fas fa-chair"></i> Mesas</a>
                 </li>
                 
                 <!-- Módulo de Tesorería con submenú -->
